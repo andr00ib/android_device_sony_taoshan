@@ -26,10 +26,8 @@ $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Build fingerprints
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=C2105_1272-2375 \
-    BUILD_FINGERPRINT="Sony/C2105_1272-2375/C2105:4.1.2/15.0.A.2.17/Android.2013:user/release-keys" \    
-    PRIVATE_BUILD_DESC="C2105-user 4.1.2 15.0.A.2.17 Aff_nw test-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=C2105_1272-2375 BUILD_FINGERPRINT="Sony/C2105_1272-2375/C2105:4.4.2/15.3.A.1.14/Android.2014:user/release-keys" PRIVATE_BUILD_DESC="C2105-user 4.4.2 15.3.A.1.14 Aff_nw test-keys"
+    
 
 PRODUCT_NAME := cm_taoshan
 PRODUCT_DEVICE := taoshan
